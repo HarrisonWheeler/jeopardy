@@ -1,4 +1,6 @@
 body {
+    background-image: url(https://www.jeopardy.com/sites/default/files/social_meta/J_set_2002-2006.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
