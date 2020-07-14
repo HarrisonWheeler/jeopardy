@@ -16,7 +16,7 @@ export default class Jeopardy {
                         <p class="card-text">Difficulty: ${this.value}</p>
                         <button class="btn btn-rounded btn-danger" onclick="app.jeopardiesController.getAnswer()">Get Answer!</button>
                         <button class="btn btn-rounded btn-success float-right" onclick="window.location.reload()">Get New Question!</button>
-                        <h3 class="card-text text-center hidden text-center pt-2" id="show">Answer: ${this.answer}</h3>
+                        <h3 class="card-text text-center hidden text-center pt-2" id="show">Answer: What is ${this.answer}</h3>
                     </div>
                 </div>
             </div>
