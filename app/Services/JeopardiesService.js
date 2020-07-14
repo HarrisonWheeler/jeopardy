@@ -3,7 +3,7 @@ import Jeopardy from "../Models/Jeopardy.js"
 
 // @ts-ignore
 const _api = axios.create({
-  baseURL: "http://jservice.io/api/random",
+  baseURL: "https://jservice.io/api/random",
   timeout: 3000
 })
 
